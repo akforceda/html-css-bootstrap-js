@@ -1,0 +1,49 @@
+.parent-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.child1-container{
+    display: grid;
+}
+
+.child2-container{
+    display: grid;
+}
+
+.child1-child1-container{
+    background-color: darkslateblue;
+    font-size: 30px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.child1-child2-container{
+    background-color: teal;
+    font-size: 30px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.child2-child1-container{
+    background-color: chocolate;
+    font-size: 30px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.child2-child2-container{
+    background-color: crimson;
+    font-size: 30px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
